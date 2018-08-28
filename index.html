@@ -2,12 +2,29 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <script src="app.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <div class="main">
+
+        <h1 class="text-center h3 mb-3 font-weight-normal">Multiply Numbers Using Javascript Workers</h1>
+
+        <div class="form-group">
+            <label for="first_number">First Number</label>
+            <input type="text" class="form-control" id="first_number" placeholder="Enter Number one">
+        </div>
+
+        <div class="form-group">
+            <label for="second_number">Second Number</label>
+            <input type="text" class="form-control" id="second_number"  placeholder="Enter Number two">
+        </div>
+
+        <h2 class="text-center h4 mb-4 font-weight-normal"> Result: <span id="result">0</span></h2>
+    </div>
+    <script src="app.js"></script>
 </body>
 </html>
